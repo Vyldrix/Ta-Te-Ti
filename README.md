@@ -33,9 +33,6 @@ Un juego de Ta-Te-Ti (Tres en Raya) moderno y minimalista con interfaz glassmorp
 - ✅ Controles intuitivos para reiniciar y navegar
 - ✅ Efectos sonoros visuales (glow effects)
 
-## 🚀 Demo en Vivo
-
-[🎮 **Jugar Ahora**](tu-enlace-de-demo-aqui)
 
 ## 📱 Capturas de Pantalla
 
@@ -71,7 +68,7 @@ X: 2 | O: 1                Turno: X
 ## 🛠️ Instalación y Uso
 
 ### Método 1: Descarga Directa
-1. Descarga el archivo `index.html`
+1. Descarga el archivo `TatetiJuego.html`
 2. Abre el archivo en tu navegador web
 3. ¡Listo para jugar!
 
@@ -81,7 +78,7 @@ git clone https://github.com/tu-usuario/tateti-moderno.git
 cd tateti-moderno
 ```
 
-Luego abre `index.html` en tu navegador favorito.
+Luego abre `TatetiJuego.html` en tu navegador favorito.
 
 ### Método 3: Servidor Local
 ```bash
@@ -141,11 +138,12 @@ php -S localhost:8000
 ## 📁 Estructura del Proyecto
 
 ```
-tateti-moderno/
-├── index.html      # Estructura HTML
-├── styles.css      # Estilos CSS
-├── script.js       # Lógica JavaScript
-└── README.md       # Documentación
+Ta-Te-Ti
+├── TatetiJuego.html      # Archivo principal del juego
+├── Tateti.html           # Estructura HTML
+├── Tateti.css            # Estilos CSS
+├── Tateti.js             # Lógica JavaScript
+└── README.md             # Documentación
 ```
 
 ## 🎨 Personalización
@@ -165,7 +163,6 @@ background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
 ```
 
 ### Dificultad de la IA
-
 Para ajustar la dificultad intermedia, modifica el método `getMediumMove()` en el JavaScript.
 
 ## 🤝 Contribuir
@@ -179,7 +176,6 @@ Para ajustar la dificultad intermedia, modifica el método `getMediumMove()` en 
 5. Abre un **Pull Request**
 
 ### Ideas para Contribuciones
-
 - 🎵 Efectos de sonido
 - 🌐 Soporte para más idiomas
 - 📱 Mejoras en responsive design
@@ -190,7 +186,7 @@ Para ajustar la dificultad intermedia, modifica el método `getMediumMove()` en 
 ## 🐛 Reportar Bugs
 
 Si encuentras algún problema:
-1. Ve a la sección [Issues](https://github.com/tu-usuario/tateti-moderno/issues)
+1. Ve a la sección [Issues](https://github.com/Vyldrix/Ta-Te-Ti/issues)
 2. Describe el problema detalladamente
 3. Incluye pasos para reproducir el bug
 4. Menciona tu navegador y sistema operativo
@@ -198,8 +194,7 @@ Si encuentras algún problema:
 ## 👨‍💻 Autor
 
 **Tu Nombre**
-
-- GitHub: (https://github.com/Vyldrix)
+- GitHub: [@tu-usuario](https://github.com/Vyldrix)
 
 ## 🙏 Agradecimientos
 
