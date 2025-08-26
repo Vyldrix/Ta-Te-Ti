@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ta-Te-Ti Moderno</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Ta-Te-Ti</h1>
+        
+        <div class="menu">
+            <div class="level-buttons">
+                <button class="btn" onclick="startGame('easy')">🟢 Fácil</button>
+                <button class="btn" onclick="startGame('medium')">🟡 Intermedio</button>
+                <button class="btn" onclick="startGame('hard')">🔴 Difícil</button>
+                <button class="btn" onclick="startGame('human')">👥 Dos Jugadores</button>
+            </div>
+        </div>
+
+        <div class="game-container">
+            <div class="difficulty-indicator" id="difficultyIndicator"></div>
+            <div class="game-info">
+                <div class="score" id="scoreDisplay">X: 0 | O: 0</div>
+                <div id="currentPlayer">Turno: X</div>
+            </div>
+            <div class="status" id="gameStatus">¡Haz tu jugada!</div>
+            <div class="board" id="gameBoard"></div>
+            <div class="game-controls">
+                <button class="btn small-btn" onclick="resetGame()">🔄 Nueva Partida</button>
+                <button class="btn small-btn" onclick="backToMenu()">🏠 Menú Principal</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
