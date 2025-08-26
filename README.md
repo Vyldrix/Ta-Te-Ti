@@ -165,6 +165,7 @@ background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
 ```
 
 ### Dificultad de la IA
+
 Para ajustar la dificultad intermedia, modifica el método `getMediumMove()` en el JavaScript.
 
 ## 🤝 Contribuir
@@ -178,6 +179,7 @@ Para ajustar la dificultad intermedia, modifica el método `getMediumMove()` en 
 5. Abre un **Pull Request**
 
 ### Ideas para Contribuciones
+
 - 🎵 Efectos de sonido
 - 🌐 Soporte para más idiomas
 - 📱 Mejoras en responsive design
@@ -193,15 +195,11 @@ Si encuentras algún problema:
 3. Incluye pasos para reproducir el bug
 4. Menciona tu navegador y sistema operativo
 
-## 📝 Licencia
-
-Este proyecto está bajo la Licencia MIT. Ver el archivo [LICENSE](LICENSE) para más detalles.
-
 ## 👨‍💻 Autor
 
 **Tu Nombre**
-- GitHub: [@tu-usuario](https://github.com/tu-usuario)
-- LinkedIn: [Tu Perfil](https://linkedin.com/in/tu-perfil)
+
+- GitHub: (https://github.com/Vyldrix)
 
 ## 🙏 Agradecimientos
 
@@ -218,7 +216,5 @@ Si este proyecto te resultó útil, ¡dale una estrella! ⭐
 <div align="center">
 
 **¡Diviértete jugando! 🎮**
-
-Made with ❤️ and ☕
 
 </div>
